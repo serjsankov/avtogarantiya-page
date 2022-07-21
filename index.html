@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/reset-style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/style-desktop.css" media="(min-width: 1025px)">
+    <title>Document</title>
+</head>
+<body>
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-container">
+                <div class="guarantee-text">
+                    <h3 class="style-title guaratee__title mobile-hidden padding-bt"> <span class="color-blue" >Гарантия </span>на авто с пробегом</h3>
+                    <div class="guarantee-img">
+                        <picture>
+                            <source srcset="./img/logo-mob.svg" media="(max-width: 1279px)">
+                            <img class="guarantee-logo__img" src="./img/logo-desk.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="guarantee__text">
+                        <p>Программа гарантии «АВТОГАРАНТИЯ 
+                            с пробегом» — это официальный, прозрачный 
+                            и надежный способ приобретения проверенных автомобилей с гарантией различных марок. Благодаря тщательной диагностике и подготовке каждого автомобиля, программа обеспечивает Вашу уверенность в его отличном техническом состоянии. Все автомобили
+                            с положительной историей владения 
+                            и без финансовых обременений.</p>
+                    </div>
+                </div>
+                <h3 class="style-title guaratee__title">Преимущества программы гарантии <span class="color-blue" >«АВТОГАРАНТИЯ с пробегом»</span></h3>
+                <div class="guarantee-advantage">
+                    <div class="">
+                        <picture>
+                            <source srcset="./img/one.svg" media="(max-width: 1025px)">
+                            <img class="" src="./img/one-desk.svg" alt="">
+                        </picture>
+                        <p>Бесплатный ремонт 
+                            по гарантии в день поломки 
+                        </p>
+                    </div>
+                    <div class="">
+                        <picture class="order2">
+                            <source srcset="./img/two.svg" media="(max-width: 1025px)">
+                            <img src="./img/two-desk.svg" alt="">
+                        </picture>
+                        <p class="order1">Автомобили проверены 
+                            более чем по 140 тех. пунктам 
+                        </p>
+                    </div>
+                    <div class="">
+                        <picture>
+                            <source srcset="./img/three.svg" media="(max-width: 1025px)">
+                            <img class="" src="./img/three-desk.svg" alt="">
+                        </picture>
+                        <p>Возможность возврата 
+                            при выявлении неисправностей 
+                            автомобиля за 1 день 
+                        </p>
+                    </div>
+                    <div class="">
+                        <picture class="order2">
+                            <source srcset="./img/four.svg" media="(max-width: 1025px)">
+                            <img src="./img/four-desk.svg" alt="">
+                        </picture>
+                        <p class="order1">Тест-драйв автомобиля 
+                            перед покупкой 
+                        </p>
+                    </div>
+                    <div class="">
+                        <picture>
+                            <source srcset="./img/five.svg" media="(max-width: 1025px)">
+                            <img class="" src="./img/five-desk.svg" alt="">
+                        </picture>
+                        <p>Юридическая чистота
+                            всех автомобилей 
+                        </p>
+                    </div>
+                    <div class="">
+                        <picture class="order2">
+                            <source srcset="./img/six.svg" media="(max-width: 1025px)">
+                            <img src="./img/six-desk.svg" alt="">
+                        </picture>
+                        <p class="order1">Бесплатная эвакуация 
+                            автомобиля по России в случае 
+                            гарантийной неисправности
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee-select">
+                    <select class="js-example-basic-single" placeholder="Выбрать автомобиль" style="min-width: 270px;" name="state">
+                        <option></option>
+                        <option value="BMW">BMW</option>
+                        <option value="Audi">Audi</option>
+                      </select>
+                </div>
+                <h3 class="style-title guaratee__title">Узлы и агрегаты покрываемые 
+                    гарантией <span class="color-blue" >«АВТОГАРАНТИЯ 
+                        с пробегом»</span>
+                </h3>
+                <div class="guarantee-car">
+                    <div class="guarantee-car__img">
+                        <div class="ball ball1">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">двигатель <img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Свечи зажигания</li>
+                                    <li>Работа на холостом ходу</li>
+                                    <li>Воздушный фильтр</li>
+                                    <li>Система выпуска</li>
+                                    <li>Турбина/Компрессор</li>
+                                    <li>Система охлаждения ДВС</li>
+                                    <li>Система смазки ДВС</li>
+                                    <li>Топливная система</li>
+                                    <li>Состояние приводных ремней</li>
+                                    <li>Шланги и патрубки</li>
+                                    <li>Поддон</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball2">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">Проверка уровней
+                                    технических жидкостей <img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Масло ДВС</li>
+                                    <li>Антифриз</li>
+                                    <li>Тормозная жидкость</li>
+                                    <li>Жидкость ГУР</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball3">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">подкапотное пространство <img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Состояние системы охлаждения</li>
+                                    <li>Состояние внешних приводных ремней</li>
+                                    <li>Тормозная жидкость</li>
+                                    <li>Подтекание жидкостей</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball4">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">Редуктор переднего и заднего моста<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <div class="ball-flex">
+                                    <div class="">
+                                        <p class="block-color-info__title-small">Задняя подвеска</p>
+                                        <ol class="block-color-info__lists">
+                                            <li>Левый амортизатор</li>
+                                            <li>Правый амортизатор</li>
+                                            <li>Пыльники</li>
+                                            <li>Сайленблоки</li>
+                                            <li>Втулки стабилизатора</li>
+                                            <li>Шарнирные соединения</li>
+                                            <li>Подшипники</li>
+                                            <li>Рычаги</li>
+                                        </ol>
+                                    </div>
+                                    <div class="">
+                                        <p class="block-color-info__title-small">Передняя подвеска</p>
+                                        <ol class="block-color-info__lists">
+                                            <li>Левый амортизатор</li>
+                                            <li>Правый амортизатор</li>
+                                            <li>Пыльники</li>
+                                            <li>Сайленблоки</li>
+                                            <li>Втулки стабилизатора</li>
+                                            <li>Шарнирные соединения</li>
+                                            <li>Подшипники</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ball ball5">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">проверка под днищем автомобиля<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li> Подтекание масла из двигателя</li>
+                                    <li>Подтекание масла из МКПП/АКПП</li>
+                                    <li>Герметичность топливной системы</li>
+                                    <li>Герметичность тормозной системы</li>
+                                    <li>Состояние системы выпуска ОГ</li>
+                                    <li>Состояние пыльников, чехлов, защиты</li>
+                                    <li>Подтекание масла из редуктора и раздаточной коробки</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball6">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">осмор колёс и шин<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Глубина протектора >50%</li>
+                                    <li>Равномерность износа</li>
+                                    <li>Состояние диска/колпака</li>
+                                    <li>Состояние запасного колеса</li>
+                                    <li>Состояние шин</li>
+                                    <li>Наличие второго комплекта колес</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball7">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">рулевое управление<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Шарнирные соединения</li>
+                                    <li>Люфты в рулевой рейке</li>
+                                    <li>Люфты в рулевой колонке</li>
+                                    <li>Жидкость ГУР</li>
+                                    <li>Гермитичность системы</li>
+                                    <li>Работа рулевого усилителя</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball8">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">осмотр салона<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Осмотр салона</li>
+                                    <li>Осмотр багажного отделения</li>
+                                    <li>Осмотр скрытых полостей автомобиля/моторного отсека</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball9">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">Тормозная система<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <ol class="block-color-info__lists">
+                                    <li>Тормозная жидкост</li>
+                                    <li>Передние колодк</li>
+                                    <li>Передние тормозные диски</li>
+                                    <li>Задние колодки</li>
+                                    <li>Задние тормозные диски</li>
+                                    <li>Стояночная тормозная система</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="ball ball10">
+                            <div class="block-color-info">
+                                <p class="block-color-info__title">коробка передач<img class="js-closed-ball" src="./img/closed-ball.svg" alt=""></p>
+                                <div class="ball-flex">
+                                    <div class="">
+                                        <p class="block-color-info__title-small">АКПП</p>
+                                        <ol class="block-color-info__lists">
+                                            <li>Тормозная жидкост</li>
+                                            <li>Передние колодк</li>
+                                            <li>Передние тормозные диски</li>
+                                            <li>Задние колодки</li>
+                                            <li>Задние тормозные диски</li>
+                                            <li>Стояночная тормозная система</li>
+                                        </ol>
+                                    </div>
+                                    <div class="">
+                                        <p class="block-color-info__title-small">МКПП</p>
+                                        <ol class="block-color-info__lists">
+                                            <li>Тормозная жидкост</li>
+                                            <li>Передние колодк</li>
+                                            <li>Передние тормозные диски</li>
+                                            <li>Задние колодки</li>
+                                            <li>Задние тормозные диски</li>
+                                            <li>Стояночная тормозная система</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guarantee-car-condition">
+                        <div class="tabs">
+                            <div class="tab-btn active order5">
+                                <div class="btn__bk1"></div>
+                                <div class="tab__item active  mobile-hidden">
+                                    <p class="tab__item__title">Проверка на подъемнике <img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Люфт подшипников ступиц</li>
+                                        <li class="item__lists">Люфт рулевого управления</li>
+                                        <li class="item__lists">Состояние передней подвески</li>
+                                        <li class="item__lists">Состояние задней подвески</li>
+                                        <li class="item__lists">Герметичность амортизаторов</li>
+                                        <li class="item__lists">Состояние тормозных колодок</li>
+                                        <li class="item__lists">Состояние тормозных дисков</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="tab-btn order6">
+                                <div class="btn__bk2"></div>
+                                <div class="tab__item mobile-hidden">
+                                    <p class="tab__item__title">Юридическая проверка<img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Проверка по базе ГИБДД</li>
+                                        <li class="item__lists">Проверка на угон</li>
+                                        <li class="item__lists">Проверка на кредит</li>
+                                        <li class="item__lists">Проверка на залог</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="tab-btn order3">
+                                <div class="btn__bk3"></div>
+                                <div class="tab__item mobile-hidden">
+                                    <p class="tab__item__title">Проверка при тест-драйве<img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Запуск двигателя</li>
+                                        <li class="item__lists">Шумность работы двигателя</li>
+                                        <li class="item__lists">Посторонние звуки при движении</li>
+                                        <li class="item__lists">Вибрация при движении</li>
+                                        <li class="item__lists">Вибрация при торможении</li>
+                                        <li class="item__lists">Увод от прямолинейного движения</li>
+                                        <li class="item__lists">Работа сцепления/МКПП/АКПП</li>
+                                        <li class="item__lists">Проверка внешнего освещения</li>
+                                        <li class="item__lists">Аварийная сигнализация</li>
+                                        <li class="item__lists">Звуковой сигнал</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="tab-btn order4">
+                                <div class="btn__bk4"></div>
+                                <div class="tab__item mobile-hidden">
+                                    <p class="tab__item__title">компьютерная диагностика<img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Двигатель</li>
+                                        <li class="item__lists">Трансмиссия</li>
+                                        <li class="item__lists">Подвеска</li>
+                                        <li class="item__lists">Рулевое управление</li>
+                                        <li class="item__lists">Проверка подушек безопасности</li>
+                                        <li class="item__lists">Антиблокировочная система</li>
+                                        <li class="item__lists">Противобуксовочная система</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="tab-btn order11">
+                                <div class="btn__bk5"></div>
+                                <div class="tab__item mobile-hidden">
+                                    <p class="tab__item__title">Внешний осмотр<img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Аудиосистема</li>
+                                        <li class="item__lists">Регулировка сидений</li>
+                                        <li class="item__lists">Регулировка рулевой колонки</li>
+                                        <li class="item__lists">Кондиционер (климат-контроль)</li>
+                                        <li class="item__lists">Привод зеркал заднего вида</li>
+                                        <li class="item__lists">Состояние передних\задних фар</li>
+                                        <li class="item__lists">Состояние боковых зеркал</li>
+                                        <li class="item__lists">Люк</li>
+                                        <li class="item__lists">Охранная система</li>
+                                        <li class="item__lists">Освещение салона</li>
+                                        <li class="item__lists">Состояние приборной панели</li>
+                                        <li class="item__lists">Работа ремней безопасности</li>
+                                        <li class="item__lists">Состояние остекления автомобиля</li>
+                                        <li class="item__lists">Состояние капота</li>
+                                        <li class="item__lists">Состояние передних и задних крыльев</li>
+                                        <li class="item__lists">Состояние переднего и заднего бамперов</li>
+                                        <li class="item__lists">Состояние крышки багажника</li>
+                                        <li class="item__lists">Состояние крыши</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="tab-btn order22">
+                                <div class="btn__bk6"></div>
+                                <div class="tab__item mobile-hidden">
+                                    <p class="tab__item__title">электрооборудование<img src="./img/arro.svg" alt=""></p>
+                                    <ol class="tab__item__lists">
+                                        <li class="item__lists">Аудиосистема</li>
+                                        <li class="item__lists">Электропривод зеркал</li>
+                                        <li class="item__lists">СЭлектропривод сидений</li>
+                                        <li class="item__lists">Электростеклоподъемники</li>
+                                        <li class="item__lists">Кондиционер (климат-контроль)</li>
+                                        <li class="item__lists">Прикуриватели</li>
+                                        <li class="item__lists">Звуковой сигнал</li>
+                                        <li class="item__lists">Центральный замок</li>
+                                        <li class="item__lists">Подогрев сидений</li>
+                                        <li class="item__lists">Габаритные огни</li>
+                                        <li class="item__lists">Ближний свет фар</li>
+                                        <li class="item__lists">Дальний свет фар</li>
+                                        <li class="item__lists">Противотуманные фары</li>
+                                        <li class="item__lists">Указатели поворотов</li>
+                                        <li class="item__lists">Стоп-сигналы</li>
+                                        <li class="item__lists">Люк</li>
+                                        <li class="item__lists">Освещение салона/подсветка</li>
+                                        <li class="item__lists">Подсветка приборной панели</li>
+                                        <li class="item__lists">Отопитель и регулятор обдува</li>
+                                        <li class="item__lists">Датчик дождя</li>
+                                        <li class="item__lists">Подсветка органов управления штатного оборудования</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab__item tab__item-mob active desk-hidden">
+                            <p class="tab__item__title">Проверка на подъемнике</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Люфт подшипников ступиц</li>
+                                <li class="item__lists">Люфт рулевого управления</li>
+                                <li class="item__lists">Состояние передней подвески</li>
+                                <li class="item__lists">Состояние задней подвески</li>
+                                <li class="item__lists">Герметичность амортизаторов</li>
+                                <li class="item__lists">Состояние тормозных колодок</li>
+                                <li class="item__lists">Состояние тормозных дисков</li>
+                            </ol>
+                        </div>
+                        <div class="tab__item tab__item-mob desk-hidden">
+                            <p class="tab__item__title">Юридическая проверка</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Проверка по базе ГИБДД</li>
+                                <li class="item__lists">Проверка на угон</li>
+                                <li class="item__lists">Проверка на кредит</li>
+                                <li class="item__lists">Проверка на залог</li>
+                            </ol>
+                        </div>
+                        <div class="tab__item tab__item-mob desk-hidden">
+                            <p class="tab__item__title">Проверка при тест-драйве</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Запуск двигателя</li>
+                                <li class="item__lists">Шумность работы двигателя</li>
+                                <li class="item__lists">Посторонние звуки при движении</li>
+                                <li class="item__lists">Вибрация при движении</li>
+                                <li class="item__lists">Вибрация при торможении</li>
+                                <li class="item__lists">Увод от прямолинейного движения</li>
+                                <li class="item__lists">Работа сцепления/МКПП/АКПП</li>
+                                <li class="item__lists">Проверка внешнего освещения</li>
+                                <li class="item__lists">Аварийная сигнализация</li>
+                                <li class="item__lists">Звуковой сигнал</li>
+                            </ol>
+                        </div>
+                        <div class="tab__item tab__item-mob desk-hidden">
+                            <p class="tab__item__title">компьютерная диагностика</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Двигатель</li>
+                                <li class="item__lists">Трансмиссия</li>
+                                <li class="item__lists">Подвеска</li>
+                                <li class="item__lists">Рулевое управление</li>
+                                <li class="item__lists">Проверка подушек безопасности</li>
+                                <li class="item__lists">Антиблокировочная система</li>
+                                <li class="item__lists">Противобуксовочная система</li>
+                            </ol>
+                        </div>
+                        <div class="tab__item tab__item-mob desk-hidden">
+                            <p class="tab__item__title">Внешний осмотр</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Аудиосистема</li>
+                                <li class="item__lists">Регулировка сидений</li>
+                                <li class="item__lists">Регулировка рулевой колонки</li>
+                                <li class="item__lists">Кондиционер (климат-контроль)</li>
+                                <li class="item__lists">Привод зеркал заднего вида</li>
+                                <li class="item__lists">Состояние передних\задних фар</li>
+                                <li class="item__lists">Состояние боковых зеркал</li>
+                                <li class="item__lists">Люк</li>
+                                <li class="item__lists">Охранная система</li>
+                                <li class="item__lists">Освещение салона</li>
+                                <li class="item__lists">Состояние приборной панели</li>
+                                <li class="item__lists">Работа ремней безопасности</li>
+                                <li class="item__lists">Состояние остекления автомобиля</li>
+                                <li class="item__lists">Состояние капота</li>
+                                <li class="item__lists">Состояние передних и задних крыльев</li>
+                                <li class="item__lists">Состояние переднего и заднего бамперов</li>
+                                <li class="item__lists">Состояние крышки багажника</li>
+                                <li class="item__lists">Состояние крыши</li>
+                            </ol>
+                        </div>
+                        <div class="tab__item tab__item-mob desk-hidden">
+                            <p class="tab__item__title">электрооборудование</p>
+                            <ol class="tab__item__lists">
+                                <li class="item__lists">Аудиосистема</li>
+                                <li class="item__lists">Электропривод зеркал</li>
+                                <li class="item__lists">СЭлектропривод сидений</li>
+                                <li class="item__lists">Электростеклоподъемники</li>
+                                <li class="item__lists">Кондиционер (климат-контроль)</li>
+                                <li class="item__lists">Прикуриватели</li>
+                                <li class="item__lists">Звуковой сигнал</li>
+                                <li class="item__lists">Центральный замок</li>
+                                <li class="item__lists">Подогрев сидений</li>
+                                <li class="item__lists">Габаритные огни</li>
+                                <li class="item__lists">Ближний свет фар</li>
+                                <li class="item__lists">Дальний свет фар</li>
+                                <li class="item__lists">Противотуманные фары</li>
+                                <li class="item__lists">Указатели поворотов</li>
+                                <li class="item__lists">Стоп-сигналы</li>
+                                <li class="item__lists">Люк</li>
+                                <li class="item__lists">Освещение салона/подсветка</li>
+                                <li class="item__lists">Подсветка приборной панели</li>
+                                <li class="item__lists">Отопитель и регулятор обдува</li>
+                                <li class="item__lists">Датчик дождя</li>
+                                <li class="item__lists">Подсветка органов управления штатного оборудования</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee-car-reviews">
+                    <div class="guarantee-car-reviews__title">
+                        <img src="./img/reviews.svg" alt="">
+                        <p>Нас рекомендуют</p>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                                <div class="reviews-info">
+                                    <p class="reviews-site">otzovik.com</p>
+                                    <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                    <div class="reviews-rating">
+                                        <div class="reviews-rateng-star">
+                                            <img src="./img/star.svg" alt="">
+                                            <img src="./img/star.svg" alt="">
+                                            <img src="./img/star.svg" alt="">
+                                            <img src="./img/star.svg" alt="">
+                                            <img src="./img/black-star.svg" alt="">
+                                        </div>
+                                        <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="reviews-info">
+                                <p class="reviews-site">otzovik.com</p>
+                                <div class="reviews-avtosalon"> <p class="reviews-small-text">Автосалон: <span>Автомир</span></p></div>
+                                <div class="reviews-rating">
+                                    <div class="reviews-rateng-star">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/star.svg" alt="">
+                                        <img src="./img/black-star.svg" alt="">
+                                    </div>
+                                    <p class="reviews-small-text">Рекомендуют <span>90%</span></p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+         $(document).ready(function() {
+            $('.js-example-basic-single').select2();
+            $('select').select2({
+                
+                 placeholder: 'Выбрать автомобиль',
+            });
+        });
+
+        let ball = document.querySelectorAll('.ball');
+
+          document.addEventListener('click', (event)=> {
+            if(event.target.closest('.js-closed-ball')) {
+                ball.forEach((item, itemIndex)=> {
+                    item.classList.remove('active');
+                })
+            }
+            if(event.target.closest('.ball')) {
+                ball.forEach(item=> {
+                    item.classList.remove('active');
+                })
+                event.target.classList.add('active');
+            }
+        })
+
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+            1280: {
+                slidesPerView: 4,
+            }
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="./js/tab.js"></script>
+</body>
+</html>
