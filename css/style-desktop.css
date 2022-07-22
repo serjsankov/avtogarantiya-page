@@ -1,5 +1,5 @@
 .container {
-    max-width: 1182px;
+    max-width: 1138px;
 }
 .mobile-hidden {
     display: block;
@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 64px;
+    padding-bottom: 88px;
 }
 .guarantee__text {
     flex-basis: 60%;
@@ -174,7 +174,7 @@
     order: 3;
 }
 .guarantee-car-condition {
-    flex-basis: 45%;
+    flex-basis: 25%;
 }
 .guarantee-car-reviews__title p {
     font-size: 22px;
