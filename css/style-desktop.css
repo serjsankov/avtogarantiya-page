@@ -98,6 +98,9 @@
     width: 67px;
     height: 67px;
 }
+.block-color-info {
+    border-top-left-radius: 10px;
+}
 .tab-btn {
     cursor: pointer;
 }
