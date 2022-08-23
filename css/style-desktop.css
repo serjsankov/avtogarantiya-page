@@ -127,6 +127,7 @@
     color: #FFFFFF;
     gap: 26px;
     padding-right: 17px;
+    font-size: 14px;
 }
 .tab__item__lists {
     margin-left: 62px;
@@ -135,7 +136,7 @@
     border-radius: 34.04px;
     padding: 70px 5px 14px 38px;
     margin-top: -52px;
-    width: 267px;
+    width: 292px;
 }
 .tab__item.active.desk-hidden {
     display: none;
@@ -149,7 +150,7 @@
 }
 .tab__item.active.mobile-hidden {
     display: block;
-    width: 331px;
+    width: 360px;
     transition: all .2s;
     opacity: 1;
 }
@@ -180,4 +181,7 @@
 .guarantee-car-reviews__title p {
     font-size: 22px;
     line-height: 21px;
+}
+.guarantee-car-reviews {
+    padding-top: 74px;
 }
