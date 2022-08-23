@@ -353,7 +353,7 @@
     line-height: 112.52%;
     position: relative;
     padding-bottom: 15px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 .tab__item__title::after {
     content: '';
@@ -480,6 +480,24 @@
   .swiper-pagination-bullet-active {
     background: var(--color-blue);
   }
+
+/* 
+  .ball {
+    animation-duration: 5s;
+    animation-name: width;
+    animation-iteration-count: infinite;
+  }
+  @keyframes width {
+    from {
+      width: 60px;
+      height: 60px;
+    }
+  
+    to {
+      width: 20px;
+      height: 20px;
+    }
+  } */
 /* media style */
 @media screen and (min-width: 360px) {
     .container {
