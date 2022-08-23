@@ -371,9 +371,15 @@
 }
 .item__lists {
     font-family: var(--font-family-road);
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 112.52%;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+    line-height: 121.52%;
+    color: #000;
+}
+.item__lists {
+    margin-bottom: 5px;
 }
 .guarantee-car-reviews {
     padding-top: 48px;
