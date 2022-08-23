@@ -40,7 +40,7 @@
   }
   @font-face {
     font-family: 'Road Radio';
-    src: local('Road Radio Bold'), local('Road-Radio-Bold'),
+    src: local('Road Radio Bold'), local('Road-Radio-Bold'),w
         url('../fonts/RoadRadio-Bold.woff2') format('woff2'),
         url('../fonts/RoadRadio-Bold.woff') format('woff'),
         url('../fonts/RoadRadio-Bold.ttf') format('truetype');
@@ -216,6 +216,7 @@
     text-align: center;
     position: relative;
     padding-bottom: 12px;
+    text-transform: lowercase;
 }
 .block-color-info__title::after {
     content: '';
